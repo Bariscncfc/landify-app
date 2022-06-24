@@ -2,7 +2,7 @@ import React from "react";
 
 const Process = () => {
   return (
-    <div className="w-full h-auto flex flex-col justify-center bg-zinc-200">
+    <div className="w-full h-auto flex flex-col justify-center bg-white mt-[100px]">
         <div className="mb-8">
         <h2 className="font-montserrat font-bold text-4xl text-center mb-4">The process we follow</h2>
         <p className="font-montserrat font-light text-xl text-center tracking-tight mb-4">As a academy of business, we are going through the development cycle.</p>
