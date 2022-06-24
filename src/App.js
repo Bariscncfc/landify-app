@@ -1,3 +1,4 @@
+import FAQ from "./components/FAQ";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Process from "./components/Process";
@@ -13,6 +14,7 @@ function App() {
       <Process />
       <Story />
       <Services />
+      <FAQ/>
     </div>
   );
 }

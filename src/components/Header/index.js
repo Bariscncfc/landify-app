@@ -10,11 +10,11 @@ const Header = () => {
   const handleClose = () => setNavbar(!navbar);
 
   return (
-    <div className="w-screen h-[80px] z-10 bg-zinc-200 fixed drop-shadow-lg">
-      <div className="px-2 flex justify-between items-center w-full h-full">
+    <div className="w-screen h-[80px] z-10 bg-transparent fixed drop-shadow-lg">
+      <div className="px-2 flex justify-around items-center w-full h-full">
         <div className="flex items-center">
           <h1 className="text-3xl font-bold mr-4 sm:text-4xl font-montserrat">
-            Landify"
+            Landify
           </h1>
           <ul className="hidden md:flex text-xl font-montserrat">
             <li>
@@ -40,7 +40,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="hidden md:flex pr-4">
-          <button className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+          <button className="bg-purple-600 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
             Subscribe
           </button>
         </div>
@@ -99,13 +99,6 @@ const Header = () => {
             Pricing
           </Link>
         </li>
-
-        <div className="flex flex-col my-4">
-          <button className="bg-transparent text-indigo-600 px-8 py-3 mb-4">
-            Sign In
-          </button>
-          <button className="px-8 py-3">Sign Up</button>
-        </div>
       </ul>
     </div>
   );

@@ -32,7 +32,7 @@ const Services = () => {
       <div className="container grid grid-cols-3 gap-4 mt-8">
         {service.data.map((data, key) => {
           return (
-            <div className="w-full h-auto bg-green-400 mr-4 px-8 py-8 rounded-lg">
+            <div className="w-full h-auto bg-yellow-100 mr-4 px-8 py-8 rounded-lg">
               <h4 className="font-montserrat text-xl font-semibold text-black">
                 {data.title}
               </h4>
