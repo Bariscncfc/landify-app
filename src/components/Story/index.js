@@ -4,7 +4,7 @@ import person from "../../assets/images/person.jpg";
 
 const Story = () => {
   return (
-    <div className="flex justify-center mt-[100px] mb-8 ">
+    <div className="flex justify-center mt-[100px] mb-[100px] ">
       <a
         href="#"
         class="flex flex-col items-center bg-gray-100 rounded-lg border shadow md:flex-row md:max-w-8xl hover:bg-yellow-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
