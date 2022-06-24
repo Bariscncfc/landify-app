@@ -2,7 +2,7 @@ import React from "react";
 
 const FAQ = () => {
   return (
-    <div>
+    <div className="mb-10" id="FAQ">
       <section className="py-12 md:py-20 px-6 md:px-0 bg-white">
         <div className="m-auto max-w-default">
           <div className="text-center">

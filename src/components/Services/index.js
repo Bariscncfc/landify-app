@@ -29,7 +29,7 @@ const Services = () => {
           We specialise in organising professional training courses.
         </p>
       </div>
-      <div className="container grid grid-cols-3 gap-4 mt-8">
+      <div className="container grid grid-cols-2 md:grid-cols-3 gap-4 mt-8">
         {service.data.map((data, key) => {
           return (
             <div className="w-full h-auto bg-yellow-100 mr-4 px-8 py-8 rounded-lg">
