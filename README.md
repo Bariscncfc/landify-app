@@ -10,7 +10,7 @@ $ npm install
 # serve with hot reload at localhost:3000
 $ npm start
 
-#Technologies
-$ ReactJs
-$ React-Hooks
-$ Tailwind Css
+# Technologies
+- ReactJs
+- React-Hooks
+- Tailwind Css
